@@ -8,6 +8,7 @@ jsproxy_config({
       label: '轻量云-香港',
       lines: [
         // 多条线路，负载均衡系统会从其中选一条
+        '192.243.113.194:8080',
         'node-aliyun-hk-0.etherdream.com:8443',
         'node-aliyun-hk-1.etherdream.com:8443'
       ]
