@@ -11,18 +11,6 @@ jsproxy_config({
         '192.243.113.194:8080'
       ]
     },
-    'aliyun-sg': {
-      label: '轻量云-新加坡',
-      lines: [
-        'node-aliyun-sg.etherdream.com:8443'
-      ]
-    },
-    'bwh-la': {
-      label: '搬瓦工-洛杉矶',
-      lines: [
-        'node-bwh-la.etherdream.com:8443'
-      ]
-    },
     'cfworker': {
       label: 'Cloudflare Worker',
       hidden: true,
