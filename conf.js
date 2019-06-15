@@ -7,13 +7,13 @@ jsproxy_config({
     'my': {
       label: '洛杉矶节点',
       lines: [
-        'proxy.error.work:8443'
+        'jsproxy.error.work:8443'
       ]
     },
     'my2': {
-      label: '洛杉矶节点2',
+      label: '洛杉矶节点[备用]',
       lines: [
-        'jsproxy.error.work:8443'
+        'proxy.error.work:8443'
       ]
     }
   },
